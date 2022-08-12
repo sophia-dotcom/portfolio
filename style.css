@@ -5,7 +5,11 @@ body {
 h4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
-  text-align: center;
+}
+
+#aboutme {
+  margin-top: -300px;
+  position: block;
 }
 /* 
 #bg {
