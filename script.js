@@ -13,7 +13,8 @@ boxes.addEventListener(
       aboutme.innerHTML =
         "<p>These are some graphics that I created for a company’s Twitter, Medium and Facebook. They are meant for informing followers of news. The aesthetic and needs to be in line with the company’s branding. </p><img width='300px' src='idm.png'> <img width='300px' src='microverse.png'> <p>I designed some graphics to be posted on Facebook, LinkedIn and Instagram for a company. This is to portray the brand’s image and give the company a personality that people can relate to.</p> <img width='300px' src='texting.png'> <img width='300px' src='macbook.png'>";
     } else if (e.target.id === "box-3") {
-      aboutme.innerHTML = "Photography";
+      aboutme.innerHTML =
+        "<p><a href='bugsweeeper.netlify.app'>Bugsweeper</a></p>";
     }
   })
 );
