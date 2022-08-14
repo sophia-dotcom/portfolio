@@ -8,14 +8,14 @@ h4 {
 }
 
 #aboutme {
-  margin-top: -300px;
+  margin-top: 0px;
   position: block;
 }
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 13px;
-  width: 300px;
+  width: 600px;
 }
 /* 
 #bg {
