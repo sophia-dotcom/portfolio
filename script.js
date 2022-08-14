@@ -9,7 +9,7 @@ bg.addEventListener("mouseover", function (e) {
   console.log(e.target);
   const newdiv = document.createElement("div");
   boxdiv.innerHTML =
-    "<div class='newdiv'><div id='box-1' style='width: 75px; height: 75px; position: relative; top: -270px; left: 255px; z-index: 2; background-color: rgba(0, 0, 0, 0.3);'><h4  style='padding-left: 5px'>Tik Tok</h4></div><div id='box-2' style=' width: 75px;height: 75px; position: relative;top: -345px;left: 65px;z-index: 3;background-color: rgba(0, 0, 0, 0.3);'> <h4 id='box-2' style='padding-left: 3px'>Graphic Design</h4></div><div id='box-3' style='width: 75px;height: 75px;position: relative;top: -320px;left: 150px;z-index: 3;background-color: rgba(0, 0, 0, 0.3);'><h4 id='box-3' style='padding-top: 50px; padding-left: 5px'>More</h4></div></div>";
+    "<div class='newdiv'><div id='box-1' style='width: 75px; height: 75px; position: relative; top: -270px; left: 220px; z-index: 2; background-color: rgba(0, 0, 0, 0.3);'><h4  style='padding-left: 5px'>Tik Tok</h4></div><div id='box-2' style=' width: 75px;height: 75px; position: relative;top: -345px;left: 30px;z-index: 3;background-color: rgba(0, 0, 0, 0.3);'> <h4 id='box-2' style='padding-left: 3px'>Graphic Design</h4></div><div id='box-3' style='width: 75px;height: 75px;position: relative;top: -320px;left: 115px;z-index: 3;background-color: rgba(0, 0, 0, 0.3);'><h4 id='box-3' style='padding-top: 50px; padding-left: 5px'>More</h4></div></div>";
 
   boxdiv.addEventListener("click", function (e) {
     if (e.target.id === "box-1") {

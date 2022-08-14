@@ -1,5 +1,18 @@
 body {
+  background: url("prettybg.png");
+}
+
+.container {
+  margin: auto;
+  width: max-content;
   background-color: rgb(198, 163, 215);
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#bgdrawing {
+  margin: auto;
 }
 
 h4 {
