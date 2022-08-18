@@ -9,7 +9,7 @@ bg.addEventListener("mouseover", function (e) {
   // console.log(e.target);
 
   boxdiv.innerHTML =
-    "<div class='newdiv'><div id='box-1' style='background-color: rgba(222, 217, 82, 0.8); border-radius:3px; width: 75px; height: 75px; position: relative; top: -270px; left: 220px; z-index: 2'><h4 id='box-1-text' style='padding: 4px' >Tik Tok</h4></div><div id='box-2' style='background-color: rgba(222, 217, 82, 0.8); border-radius:3px; width: 75px;height: 75px; position: relative;top: -320px;left: 40px;z-index: 3;'><h4 id='box-2-text' style='padding: 3px' >Graphic Design</h4></div><div id='box-3' style='background-color: rgba(222, 217, 82, 0.8); border-radius:3px; width: 75px;height: 75px;position: relative;top: -290px;left: 140px;z-index: 3;'><h4 id='box-3-text' style='padding: 5px; padding-top: 50px;color:rgb(0,0,0);'>More</h4></div></div>";
+    "<div class='newdiv'><div id='box-1' style='background-color: rgba(222, 217, 82, 0.8); border-radius:3px; width: 75px; position: relative; top: -270px; left: 220px; z-index: 2'><h4 id='box-1-text' style='padding: 4px' >Tik Tok</h4></div><div id='box-2' style='background-color: rgba(222, 217, 82, 0.8); border-radius:3px; width: 75px; position: relative;top: -320px;left: 40px;z-index: 3;'><h4 id='box-2-text' style='padding: 3px' >Graphic Design</h4></div><div id='box-3' style='background-color: rgba(222, 217, 82, 0.8); border-radius:3px; width: 75px;position: relative;top: -200px;left: 120px;z-index: 3;'><h4 id='box-3-text' style='padding: 5px; color:rgb(0,0,0);'>More</h4></div></div><div id='box-4' style='background-color: rgba(222, 217, 82, 0.8); border-radius:3px; width: 75px;position: relative;top: -330px;left: 150px;z-index: 4;'><h4 id='box-4-text' style='padding: 5px; color:rgb(0,0,0);'>Writing</h4></div></div>";
 
   // const box1 = document.querySelector("#box-1");
   // const box2 = document.querySelector("#box-2");
@@ -39,6 +39,9 @@ bg.addEventListener("mouseover", function (e) {
       } else if (e.target.id === "box-3" || e.target.id === "box-3-text") {
         aboutme.innerHTML =
           "<h4>Bugsweeper</h4><p>Are you afraid of bugs? I coded a simple game based on Minesweeper to help myself overcome my fear of bugs in programming :O ... so scary!<br /><br /><a href='https://bugsweeeper.netlify.app/' target='_blank'>Click to Play</a></p>";
+      } else if (e.target.id === "box-4" || e.target.id === "box-4-text") {
+        aboutme.innerHTML =
+          "<h4>Writing</h4><p>I have written a few articles on Medium ranging from informative to persuasive writing. I also had to translate the given information from Mandarin to English.<br /><br /><img src='medium1.png' style='width: 600px'><br><img src='medium2.png' style='width: 600px'><br><a href='https://medium.com/coinstore-exchange/winners-awarded-50-000-usdt-future-bonus-is-up-for-grabs-in-coinstores-demo-trading-contest-4111821f56f8' target='_blank'>Source</a></p>";
       }
     });
   });
